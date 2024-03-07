@@ -1,4 +1,19 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
+html{
+ font-family: Arial, Helvetica, sans-serif;
+ width: 98%;
+ max-width: 1180px;
+ text-align: left;
 }
 
+img{
+    width:100%;
+}
+
+div.vsplit{
+    display:flex
+}
+
+div.vsplit-content{
+    width: 50%;
+    margin:5px;
+}
