@@ -1,0 +1,40 @@
+html{
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ width:100%;
+ max-width: 1024px; 
+ text-align: left;
+}
+
+body{
+    background-color: linen;
+    color:#311200;
+    padding-left:4%;
+    padding-right:4%;
+}
+
+div.section{
+    background-color: rgb(255, 219, 172);
+    padding: 12px;
+    border-radius: 12px;
+}
+
+img{
+    width:100%;
+}
+
+img.author-image{
+    width:100px;
+}
+div.vsplit{
+    display:flex
+}
+
+div.vsplit-content{
+    width: 50%;
+    margin:5px;
+}
+
+iframe{
+    margin-top:24px;
+    margin-bottom:12px;
+}
