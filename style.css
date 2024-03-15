@@ -14,8 +14,21 @@ body{
 
 div.section{
     background-color: rgb(255, 219, 172);
-    padding: 12px;
+    padding: 6px 12px 12px 12px;
     border-radius: 12px;
+}
+
+p{
+    padding:0;
+}
+
+h3{
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+h4{
+    margin:0;
 }
 
 img{
@@ -32,6 +45,46 @@ div.vsplit-content{
 }
 
 iframe{
-    margin-top:24px;
+    margin-top:12px;
     margin-bottom:12px;
+    width:100%;
+    min-height: 240px;
+}
+
+ul.navbar{
+    list-style: none;
+    margin:0;
+    margin-bottom:12px;
+    padding: 12px 0 12px 0;
+    background-color: rgb(255, 219, 172);
+    border-radius: 12px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: -5px; /*-6 instead of 0 to hide stuff scrolling past the corners*/
+}
+
+.navbar li{
+    display:inline;
+    margin:0;
+    padding:0;
+}
+
+.navbar a{
+    padding:12px;
+    margin:0;
+}
+
+.navbar li:first-child a{
+    padding-left:12px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.navbar li:last-child a{
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.active a{
+    background-color: #04AA6D;
 }
